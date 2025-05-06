@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - DigitalE Library</title>
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">DigitalE Library - Admin</div>
+        <nav>
+            <ul>
+                <li><a href="admin.html">Dashboard</a></li>
+                <li><a href="admin-books.html">Books</a></li>
+                <li><a href="admin-users.html">Users</a></li>
+                <li><a href="admin-requests.html">Requests</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="admin-main">
+        <aside class="admin-sidebar">
+            <ul>
+                <li><a href="admin.html" class="active">Dashboard</a></li>
+                <li><a href="admin-books.html">Book Management</a></li>
+                <li><a href="admin-submissions.html">Book Submissions</a></li>
+                <li><a href="admin-users.html">User Management</a></li>
+                <li><a href="admin-requests.html">Book Requests</a></li>
+                <li><a href="admin-reports.html">Reports</a></li>
+                <li><a href="admin-settings.html">Settings</a></li>
+            </ul>
+        </aside>
+        
+        <div class="admin-content">
+            <h1>Admin Dashboard</h1>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Total Books</h3>
+                    <p>1,245</p>
+                </div>
+                <div class="stat-card">
+                    <h3>New Submissions</h3>
+                    <p>12</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Pending Requests</h3>
+                    <p>8</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Active Users</h3>
+                    <p>543</p>
+                </div>
+            </div>
+            
+            <div class="recent-activity">
+                <h2>Recent Activity</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Activity</th>
+                            <th>User</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2023-11-15</td>
+                            <td>New book submission</td>
+                            <td>user123</td>
+                        </tr>
+                        <!-- More activity rows would go here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 DigitalE Library Admin. All rights reserved.</p>
+    </footer>
+</body>
+</html>

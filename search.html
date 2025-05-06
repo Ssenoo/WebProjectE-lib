@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Books - DigitalE Library</title>
+    <link rel="stylesheet" href="css/books.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">DigitalE Library</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="search.html">Browse</a></li>
+                <li><a href="dashboard.html">My Books</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="search-page">
+        <div class="search-container">
+            <h1>Find Your Next Read</h1>
+            <div class="search-box">
+                <input type="text" placeholder="Search by title, author, or ISBN...">
+                <button>Search</button>
+            </div>
+            
+            <div class="filters">
+                <select>
+                    <option>All Categories</option>
+                    <option>Fiction</option>
+                    <option>Non-Fiction</option>
+                    <option>Science</option>
+                    <option>History</option>
+                </select>
+                <select>
+                    <option>Any Format</option>
+                    <option>eBook</option>
+                    <option>Audiobook</option>
+                    <option>PDF</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="search-results">
+            <div class="result-item">
+                <img src="images/book1.jpg" alt="Book Cover">
+                <div class="book-info">
+                    <h3>The seven great habits of highly effictive people</h3>
+                    <p class="author">By Jane Doe</p>
+                    <p class="description">A captivating story about life and its challenges.</p>
+                    <div class="actions">
+                        <button class="read-btn">Read</button>
+                        <button class="download-btn">Download</button>
+                    </div>
+                </div>
+            </div>
+            <!-- More result items would go here -->
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 DigitalE Library. All rights reserved.</p>
+    </footer>
+</body>
+</html>
